@@ -1,11 +1,14 @@
 
 function buttControl() {
 var rightButton = document.getElementById('rightbutton'); 
- alert(rightButton);
  rightButton.value = "WTF?";
+ //alert(document.value);
 
 }
+
 document.getElementById('leftbutton').onclick=function(){
-	alert(this.value);
+	buttControl();
 }
-
+document.getElementById('rightbutton').onclick=function(){
+	buttControl();
+}
