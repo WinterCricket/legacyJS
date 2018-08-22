@@ -5,16 +5,18 @@ div {
 h1 {
 	margin: 25px;
 	width: 100%;
-	background-color: #E84BOD;
+	background-color: #E84B0D;
 	text-align: center;
 	font-size: 24px;
 	font-family: sans-serif;
 	color: #fff;
+
 }
 
-#rightbutt {
+#rightbutton {
 	float: right;
+	background-color: pink;
 }
-#leftbutt, #rightbutt {
+#leftbutton, #rightbutton {
 	width: 100px;
 }
