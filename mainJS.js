@@ -17,15 +17,17 @@ document.getElementById('rightbutton').onclick=function(){
 
 //info return func
 // 
-function singleReturn(args) {
-	return "You returned info, you clumsy prick. " + args;
-// }
+function singleReturn(name, place) {
+	return "You are " + name + " from " + place;
+ }
 
-// function multiReturn() {
-// 	alert("Bloody Clicked!");
-// }
+function multiReturn(name, ice_cream_flavor, place) {
+	return name + ", take your " + ice_cream_flavor + " ice cream back to " + place + ", and stay there!";
+}
 
 // document.getElementById('returnButton').onclick=function(){
 // 	singleReturn();
-}
-alert(singleReturn("You're passing notes in class."));
+// }
+ alert(singleReturn("Dog Butt", "Cordova, Spain"));
+
+alert(multiReturn("Sara Smitch", "Poo Pudding Spice", "Lansing, Michigan"));
