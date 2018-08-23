@@ -14,3 +14,18 @@ document.getElementById('leftbutton').onclick=function(){
 document.getElementById('rightbutton').onclick=function(){
 	buttControl(this.id);
 }
+
+//info return func
+// 
+function singleReturn(args) {
+	return "You returned info, you clumsy prick. " + args;
+// }
+
+// function multiReturn() {
+// 	alert("Bloody Clicked!");
+// }
+
+// document.getElementById('returnButton').onclick=function(){
+// 	singleReturn();
+}
+alert(singleReturn("You're passing notes in class."));
