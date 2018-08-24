@@ -22,7 +22,12 @@ function singleReturn(name, place) {
  }
 
 function multiReturn(name, ice_cream_flavor, place) {
-	return name + ", take your " + ice_cream_flavor + " ice cream back to " + place + ", and stay there!";
+	var fullName = "customer's full name: " + name ;
+	var flavor = "\ncustomer's created ice cream flavor: " + ice_cream_flavor ;
+	var home = "\nhome town of customer: " + place;
+	var customerInfo = [fullName, flavor, home];
+	//return name + ", take your " + ice_cream_flavor + " ice cream back to " + place + ", and stay there!";
+	return customerInfo;
 }
 
 // document.getElementById('returnButton').onclick=function(){
@@ -31,6 +36,11 @@ function multiReturn(name, ice_cream_flavor, place) {
  alert(singleReturn("Dog Butt", "Cordova, Spain"));
 
 alert(multiReturn("Sara Smitch", "Poo Pudding Spice", "Lansing, Michigan"));
+
+
+
+
+
 
 
 var global = "This is global, baby!";
