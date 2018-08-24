@@ -31,3 +31,15 @@ function multiReturn(name, ice_cream_flavor, place) {
  alert(singleReturn("Dog Butt", "Cordova, Spain"));
 
 alert(multiReturn("Sara Smitch", "Poo Pudding Spice", "Lansing, Michigan"));
+
+
+var global = "This is global, baby!";
+
+function variableScope() {
+
+	var localVary = "This is a local variable, suma!";
+	return localVary;
+}
+
+alert(variableScope());
+//alert(global);
