@@ -35,8 +35,10 @@ function multiReturn(name, ice_cream_flavor, place) {
 // }
  alert(singleReturn("Dog Butt", "Cordova, Spain"));
 
-alert(multiReturn("Sara Smitch", "Poo Pudding Spice", "Lansing, Michigan"));
+var saraArray =  multiReturn("Sara Smitch", "Poo Pudding Spice", "Lansing, Michigan");
 
+alert(saraArray[1]);
+console.log(saraArray);
 
 
 
