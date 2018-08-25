@@ -40,18 +40,6 @@ var saraArray =  multiReturn("Sara Smitch", "Poo Pudding Spice", "Lansing, Michi
 alert(saraArray[1]);
 console.log(saraArray);
 
-function ageCheck(age){
-
-	if(age >= 18) {
-		alert("Welcome to the club. Strip!");
-
-	} else {
-		alert("Go home and watch TV, kid!");
-	}
-}
- 
-ageCheck(5);
-
 
 
 
@@ -65,3 +53,25 @@ function variableScope() {
 
 alert(variableScope());
 //alert(global);
+
+
+function ageCheck(age){
+	var oldEnough;
+
+	if(age >= 18) {
+		oldEnough = true;
+		
+		alert("Welcome to the club. Strip!");
+
+	} else {
+		oldEnough = false;
+		alert("Go home and watch TV, kid!");
+
+	}
+	return oldEnough;
+}
+document.getElementById('returnButton').onclick=function(){
+	console.log(ageCheck(5));
+}
+
+
