@@ -40,7 +40,17 @@ var saraArray =  multiReturn("Sara Smitch", "Poo Pudding Spice", "Lansing, Michi
 alert(saraArray[1]);
 console.log(saraArray);
 
+function ageCheck(age){
 
+	if(age >= 18) {
+		alert("Welcome to the club. Strip!");
+
+	} else {
+		alert("Go home and watch TV, kid!");
+	}
+}
+ 
+ageCheck(5);
 
 
 
